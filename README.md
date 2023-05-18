@@ -1,5 +1,10 @@
 # Pin It | Flash Card Web Application
 
+<img width="960" alt="image" src="https://github.com/not-joosh/Pin-It/assets/105687297/75e101c9-1a86-43f2-ab3d-06448de69d0b">
+
+# Description
+    I created his project to help me in my studies. People can created quizzes, test themselves, and see their progrses on their studies. With a full CRUD system with optimized, it has never been more easy to pin it and excel in classes.  
+    
 # Project Build
     Firebase
     Vite React
