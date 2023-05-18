@@ -1,5 +1,3 @@
-© 2023, Josh Ratificar. All rights reserved.
-
 # Pin It | Flash Card Web Application
 
 # Project Build
@@ -33,3 +31,5 @@
         - Project Bootstrapped in React Vite, Firebase was setup.
         - Finished Landing Page and Customization
         - Worked out rough sketch of User Interaction Flow
+
+Pin It | © 2023, Josh Ratificar. All rights reserved.
