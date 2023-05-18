@@ -30,8 +30,14 @@ Interactions:
 - npm install firebase
 - npm install react-router-dom
 - npm install @hookform/resolvers yup
-
+- npm install valtio
+- npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion
 ## History
+- 05/19/2023:
+  - Firebase was set up and linked to the project.
+  - Registration and Login Popups were implemented.
+  - User authentication was implemented.
+  - Setup Chakra provider to improve user experience... visually handling errors.
 - 05/18/2023:
   - Project bootstrapped with React Vite and Firebase set up.
   - Completed landing page and customization.
