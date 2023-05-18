@@ -1,6 +1,6 @@
-# Pin It | Flash Card Web Application
-
 © 2023, Josh Ratificar. All rights reserved.
+
+# Pin It | Flash Card Web Application
 
 # Project Build
     Firebase
