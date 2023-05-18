@@ -1,6 +1,6 @@
 # Pin It | Flash Card Web Application
 
-![image](https://github.com/not-joosh/Pin-It/assets/105687297/75e101c9-1a86-43f2-ab3d-06448de69d0b)
+<img width="953" alt="image" src="https://github.com/not-joosh/Pin-It/assets/105687297/d22a2914-c8e6-4254-bb47-5850c888b694">
 
 ## Description
 Pin It is a web application designed to assist users in their studies. It allows users to create quizzes, test themselves, and track their progress. With a comprehensive CRUD system and optimized features, excelling in classes has never been easier.
