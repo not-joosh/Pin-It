@@ -1,4 +1,4 @@
-# Pin It | Flash Card Web Application
+# Pin It | Custom Quiz Web-App 
 
 <img width="953" alt="image" src="https://github.com/not-joosh/Pin-It/assets/105687297/d22a2914-c8e6-4254-bb47-5850c888b694">
 
@@ -24,7 +24,7 @@ Interactions:
 - View performance statistics
   - Includes average scoring, highest score, and lowest performance for a specific quiz
 
-## Dependencies
+## Insatlled Dependencies
 - npm create vite@latest
 - npm install vite
 - npm install firebase
@@ -38,6 +38,10 @@ Interactions:
   - Registration and Login Popups were implemented.
   - User authentication was implemented.
   - Setup Chakra provider to improve user experience... visually handling errors.
+  - Implemented Home Page Styling
+  - Added Filtering for Selecting a Certain Quiz.
+  - Added ability to create new quizzes along with flashcards.
+  - Added framer-motion elements to support user experience.
 - 05/18/2023:
   - Project bootstrapped with React Vite and Firebase set up.
   - Completed landing page and customization.
