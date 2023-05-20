@@ -1,0 +1,46 @@
+.transparntDarkBackgroundDiv:hover {
+    cursor: pointer;
+}
+.loginFormContainer {
+    z-index: 11;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.loginFormContainer input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.loginFormContainer input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.loginFormContainer button {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+}
+.loginFormContainer button:hover {
+    background-color: transparent;
+    border: none;
+    filter: drop-shadow(0 0 0.8em #6d6df9);
+    cursor: pointer;
+}
+.loginFormContainer input[type="submit"]:hover {
+    filter: drop-shadow(0 0 0.8em #6d6df9);
+    color: #fff;
+    cursor: pointer;
+}

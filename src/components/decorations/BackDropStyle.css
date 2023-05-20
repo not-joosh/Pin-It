@@ -1,0 +1,64 @@
+.backDrop::after {
+    content: '';
+    position: absolute;
+    top: var(--mouse-y);
+    left: var(--mouse-x);
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background-color: #6d6df9;
+    border-radius: 50%;
+    opacity: 0.2;
+    filter: blur(40px);
+    pointer-events: none;
+    z-index: 1;
+}
+.backDrop {
+    min-height: 100vh;
+    background: #000428;
+} 
+.backDropContainer {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+  
+.backDropBubbles {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.backDropBubbles span {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #b4aee8;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #b4aee844, 0 0 50px #b4aee8, 0 0 100px #b4aee8;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(125s / var(--i));
+}
+  
+.backDropBubbles span:nth-child(even) {
+    background: #ff5252;
+    box-shadow: 0 0 0 10px #ff525244, 0 0 50px #ff5252, 0 0 100px #ff5252;
+}
+  
+@keyframes animate {
+    0% {
+      transform: translateY(100vh) scale(0);
+    }
+    100% {
+      transform: translateY(-10vh) scale(1);
+    }
+}
+@media (max-width: 768px) {
+    .backDropBubbles span {
+      width: 20px;
+      height: 20px;
+    }
+}
