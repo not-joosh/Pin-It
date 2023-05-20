@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.mainContent {
+    z-index: 5; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.mainContentTitle {
+    color: #fff;
+    font-size: 5rem;
+    margin-bottom: 1re  m;
+    filter: drop-shadow(0 0 0.1em #fefef3);
+}
+  
+.mainContentButton {    
+    background-color: #b4aee8;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1.25rem;
+    border-radius: 0.25rem; 
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+  
+.mainContentButton:hover {
+    background-color: #6d6df9;
+    filter: drop-shadow(0 0 0.75em #6d6df9);
+}
+
+
+/*
+*   HOME PAGE
+*/
+
+.logoutBtn, .returnBtn {
+    border: none;
+    top: 0.5rem;
+    left: 0.5rem;
+    z-index: 100;
+    width: 115px;
+    position: fixed;
+    border-radius: 1rem;
+    will-change: filter;
+    padding: 0.75rem 1rem;
+    box-shadow: 0 0 1rem rgba(3, 12, 140, 0.5);
+    color: #fff;
+    transition: filter 300ms;
+    border: none;
+    background-color: #150f33;
+    border-radius: 19px;
+}
+
+.logoutBtn:hover, .returnBtn:hover {
+    filter: drop-shadow(0 0 1.3em #5363f7aa);
+    background-color: white;
+    color: #484262;
+}
+
+.mainContent {
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.mcSelectedQuizDiv {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 255, 0.2);
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 255, 0.5);
+    animation: glowing-blue 2s infinite;
+    pointer-events: none;
+}
+
+@keyframes glowing-blue {
+    0% {
+        box-shadow: 0 0 1rem rgba(0, 0, 255, 0.5);
+    }
+    50% {   
+        box-shadow: 0 0 2rem rgba(0, 0, 255, 1);
+    }
+    100% {
+        box-shadow: 0 0 1rem rgba(0, 0, 255, 0.5);
+    }
+}
+
+@keyframes alternate-colors {
+    0% {
+        box-shadow: 0 0 2rem rgb(74, 71, 22);
+    }
+    50% {   
+        box-shadow: 0 0 2rem rgb(255, 215, 150);
+    }
+    100% {
+        box-shadow: 0 0 1rem rgba(255, 35, 61, 0.864);
+    }
+}
+
+select, button.mcButton {
+    margin: 1rem;
+    padding: 0.75rem 1rem;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    transition: box-shadow 0.3s;
+    cursor: pointer;
+}
+  
+select.mcDropDownOptions:hover, button.mcButton:hover {
+    background-color: white;
+    animation: alternate-colors 2s infinite;
+    color: black;
+}

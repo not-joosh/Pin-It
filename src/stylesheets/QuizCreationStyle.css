@@ -1,0 +1,57 @@
+.quizCreationFormContainer, .flashCardFormContainer {
+    z-index: 11;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+  
+.quizCreationFormContainer input, .flashCardFormContainer input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+  
+.quizCreationFormContainer input[type="submit"], .flashCardFormContainer input[type='submit'] {
+    background-color: #0c1e32;;
+    color: #fff;
+    cursor: pointer;
+}
+  
+.quizCreationFormContainer button, .flashCardFormContainer button {
+    background-color: transparent;
+    border: none;
+    color: #770ff7;;    
+    cursor: pointer;
+}
+  
+.quizCreationFormContainer button:hover, 
+.flashCardFormContainer button:hover {
+    background-color: transparent;
+    border: none;
+    filter: drop-shadow(0 0 0.8em #f6e7ac);
+    cursor: pointer;
+}
+  
+.quizCreationFormContainer input[type="submit"]:hover, 
+.flashCardFormContainer input[type="submit"]:hover {
+    filter: drop-shadow(0 0 0.5em #072d48);
+    color: #fff;
+    cursor: pointer;
+}
+.flashCardCount, .optionCount {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: #0c1e32;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
