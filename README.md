@@ -24,7 +24,7 @@ Interactions:
 - View performance statistics
   - Includes average scoring, highest score, and lowest performance for a specific quiz
 
-## Insatlled Dependencies
+## Installed Dependencies
 - npm create vite@latest
 - npm install vite
 - npm install firebase
@@ -32,7 +32,14 @@ Interactions:
 - npm install @hookform/resolvers yup
 - npm install valtio
 - npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion
+- npm install @react-spring/parallax
 ## History
+- 05/20/2023:
+  - Implementing Start Quiz using multiform custom hook.
+  - Finished Implemented Multiform Quiz session.
+  - Adding Background music to the Homepage, Quiz Creation Page, and Quiz Session Page.
+  - Started drafting UI to view quizzes. Working out logic to delete spcific quizzes.
+  - Contemplating whether or not to allow edits to quizzes, kapoy oy.
 - 05/19/2023:
   - Firebase was set up and linked to the project.
   - Registration and Login Popups were implemented.
@@ -42,6 +49,7 @@ Interactions:
   - Added Filtering for Selecting a Certain Quiz.
   - Added ability to create new quizzes along with flashcards.
   - Added framer-motion elements to support user experience.
+  - Installed react parallex library for parallex backdrop.
 - 05/18/2023:
   - Project bootstrapped with React Vite and Firebase set up.
   - Completed landing page and customization.
