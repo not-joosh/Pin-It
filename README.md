@@ -1,28 +1,17 @@
 # Pin It | Custom Quiz Web-App 
 
-<img width="953" alt="image" src="https://github.com/not-joosh/Pin-It/assets/105687297/d22a2914-c8e6-4254-bb47-5850c888b694">
+<img width="957" alt="image" src="https://github.com/not-joosh/Pin-It/assets/105687297/23c224a9-9455-4f8b-843c-8a510aa30f76">
+
 
 ## Description
 Pin It is a web application designed to assist users in their studies. It allows users to create quizzes, test themselves, and track their progress. With a comprehensive CRUD system and optimized features, excelling in classes has never been easier.
 
 ## Project Build
 - Firebase
-- Vite React
-
-## User Stories
-A user can:
-- Create an account
-- Login to an existing account
-
-Interactions:
-- Start a quiz by selecting a quiz
-- Create a quiz
-  - Create flashcards for the quiz
-- View flashcards by selecting a quiz
-  - Edit flashcards
-  - Delete flashcards
-- View performance statistics
-  - Includes average scoring, highest score, and lowest performance for a specific quiz
+- Vite
+- React
+- Typescript
+- Chakra
 
 ## Installed Dependencies
 - npm create vite@latest
@@ -33,13 +22,21 @@ Interactions:
 - npm install valtio
 - npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion
 - npm install @react-spring/parallax
+- npm install -g firebase-tools
+## Soon to Come
+- Will work on this project more soon. Planning to implement progress insights.
+- Just kidding, I probably won't. I'll do other projects :)
+
 ## History
 - 05/20/2023:
   - Implementing Start Quiz using multiform custom hook.
   - Finished Implemented Multiform Quiz session.
   - Adding Background music to the Homepage, Quiz Creation Page, and Quiz Session Page.
+  - Quiz results are now shown after every quiz session.
   - Started drafting UI to view quizzes. Working out logic to delete spcific quizzes.
   - Contemplating whether or not to allow edits to quizzes, kapoy oy.
+  - Implemented deletion of quizzes and added several modals.
+  - Starting deployment via firebase with open source code...
 - 05/19/2023:
   - Firebase was set up and linked to the project.
   - Registration and Login Popups were implemented.
