@@ -52,6 +52,13 @@ Pin It is a web application designed to assist users in their studies. It allows
   - Completed landing page and customization.
   - Outlined the user interaction flow.
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+Feel free to customize and adapt the code to meet your specific requirements.
+
+
 ---
 
 Pin It | © 2023, Josh Ratificar. All rights reserved.
